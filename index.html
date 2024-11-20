@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <form>
+        <input type="text" placeholder="Add a new task" />
+        <button class="plus">
+          <img src="./assets/Plus.png" alt="Plus img" />
+        </button>
+      </form>
+      <div class="all-todo-wrapper">
+        <div class="tasks">
+          <h3>Tasks to do - <span class="count">0</span></h3>
+          <ul class="todo-wrapper"></ul>
+        </div>
+        <div class="completed">
+          <h3>Done - <span class="count-completed">0</span></h3>
+          <ul class="completed-wrapper"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
